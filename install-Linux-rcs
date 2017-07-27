@@ -3,6 +3,8 @@
 # .bashrc
 curl -fLo ~/.bashrc \
     https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/bashrc
+source ~/.bashrc
+
 # cpp-headers for ICPC
 curl --insecure -fLo  ~/.vim/templates/main.cpp --create-dirs \
     https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/main.cpp
@@ -20,3 +22,4 @@ curl -fLo ~/.vimrc \
     https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc
 
 vim +PlugInstall
+source ~/.vimrc
