@@ -7,6 +7,6 @@ source ~/.bashrc
 
 # .vimrc
 curl -fLo ~/.vimrc \
-    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc
+    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc_server
 
 source ~/.vimrc
