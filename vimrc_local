@@ -55,8 +55,9 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
 
 " Browsing
+" Show symbol tags of file
 Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle'      }
-Plug 'derekwyatt/vim-fswitch', { 'for': ['c', 'cpp', 'objc'] }
+" Pull C++ ptototypes into the implementation file
 Plug 'derekwyatt/vim-protodef', { 'for': ['c', 'cpp', 'objc'] }
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
