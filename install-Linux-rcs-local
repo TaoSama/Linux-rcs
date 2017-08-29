@@ -19,7 +19,7 @@ curl --insecure -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # .vimrc
 curl -fLo ~/.vimrc \
-    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc
+    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc_local
 
 vim +PlugInstall
 source ~/.vimrc

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# .bashrc
+curl -fLo ~/.bashrc \
+    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/bashrc
+source ~/.bashrc
+
+# .vimrc
+curl -fLo ~/.vimrc \
+    https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/vimrc
+
+source ~/.vimrc
