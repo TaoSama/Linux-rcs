@@ -8,12 +8,29 @@ So cool, ha!
 
 # How to install
 
-## Via curl
+## Local
+
+### Via curl
 ```shell
-curl -o - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs | sh
+curl -o - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs-local | sh
 ```
 
 ### Via wget
 ```shell
-wget -O - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs | sh
+wget -O - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs-local | sh
 ```
+
+## Sever
+
+### Via curl
+```shell
+curl -o - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs-server | sh
+```
+
+### Via wget
+```shell
+wget -O - https://raw.githubusercontent.com/TaoSama/Linux-rcs/master/install-Linux-rcs-server | sh
+```
+
+# License
+MIT
