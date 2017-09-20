@@ -14,8 +14,8 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 alias cp='cp -p'
 alias ls='ls --color=auto'
-alias ll="ls -iAlh"
-alias la="ls -iAh"
+alias ll="ls -ilh"
+alias la="ls -ih"
 alias du="du -h"
 alias grep="grep --color=auto"
 alias cgrep="grep -P -r --include=*{h,pp,hpp,cc,c}"
